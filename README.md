@@ -1,4 +1,9 @@
+# 💫 Hi 👋, I'm Allan Otieno
+**A passionate Software Engineer || Data Analyst/Scientist || Kafka Admin from Nairobi Kenya**
 
+Email Me 👉 ✉️ **otienoallan143@gmail.com** For Collaboration/Project or Anything Else. 😊😊
+
+## 🔗 I am a Content Creator. 😊😊
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/allan otieno jackson) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/allan_otieno.jackson) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://linked/in/Allan Otieno) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:oallan383@gmail.com) 
 
@@ -11,9 +16,25 @@
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=allan-eng&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+<div align="center">
 
+<img height="158em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alamimran613&theme=radical">
+<img height="158em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=alamimran613&theme=radical">
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=alamimran613&theme=radical">
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=alamimran613&theme=radical">
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=alamimran613&theme=radical&utcOffset=8">
+<img height="169em" src="https://github-readme-stats.vercel.app/api?username=alamimran613&theme=radical&hide_border=false&include_all_commits=false&count_private=false">
+<img height="169em" src="https://github-readme-streak-stats.herokuapp.com/?user=alamimran613&theme=radical">
+
+</div>
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+</div><br>
+<!-- Snake Game Repo View -->
+
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=allan-eng&limit=5&theme=dark&combine_all_yearly_contributions=true)

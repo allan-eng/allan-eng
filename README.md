@@ -43,3 +43,5 @@ Email Me 👉 ✉️ **otienoallan143@gmail.com** For Collaboration/Project or A
 [![](https://visitcount.itsvg.in/api?id=allan-eng&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<img width="2050" height="2247" alt="image" src="https://github.com/user-attachments/assets/8e0406e3-f57b-4167-a073-2508918ac02a" />
+

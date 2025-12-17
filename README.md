@@ -1,9 +1,25 @@
-# 👋 Hi there, I'm Allan Otieno  
+<!-- Animated Header -->
+<h1 align="center">
+  👋 Hi there, I'm <span style="color:#00C2FF;">Allan Otieno</span>
+</h1>
 
-💻 **Software Engineer | 📊 Data Analyst / Scientist | 🔄 Kafka Administrator**  
-📍 Nairobi, Kenya  
+<h3 align="center">
+  💻 <span style="color:#38BDF8;">Software Engineer</span> |
+  🚀 <span style="color:#22C55E;">Backend Engineer (MERN)</span> |
+  📊 <span style="color:#F59E0B;">Data Analyst / Scientist</span> |
+  🔄 <span style="color:#A855F7;">Kafka Administrator</span>
+</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Location-Nairobi%2C%20Kenya-0EA5E9?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+</p>
 
 ---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=36BCF7&center=true&vCenter=true&width=650&lines=Building+Scalable+Backend+Systems;Designing+APIs+%26+Microservices;Working+with+Kafka+%26+Data+Pipelines;Turning+Data+Into+Insights" />
+</p>
+
 
 ## 🚀 About Me
 I’m a passionate and results-driven technologist with strong interests in:

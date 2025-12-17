@@ -60,6 +60,74 @@ I actively create and share tech-related content to help others learn and grow i
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white)
 
 ### 🌐 Backend & Tools
+---
+
+## 👨‍💻 About Me
+I’m a **Backend Software Engineer** passionate about building:
+- ⚙️ Scalable APIs & microservices  
+- 🗄️ Reliable database-driven systems  
+- 🔄 Event-driven architectures using **Apache Kafka**  
+
+I focus on **clean architecture, performance, and reliability**.
+
+---
+
+## 🧰 Backend Tech Stack
+
+### 🧠 Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=yellow)
+
+### ⚙️ Backend Frameworks
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+### 🗄️ Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### 🔄 Messaging & Streaming
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+### ☁️ DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 📂 Featured Backend Projects
+🔹 **REST API with JWT Authentication** – Secure API with role-based access  
+🔹 **Kafka Event Streaming Service** – Producer/consumer architecture  
+🔹 **Microservices Architecture** – Dockerized services with API Gateway  
+🔹 **Database Optimization Project** – Query tuning & indexing  
+
+*(Pin these repositories on your profile for best visibility)*
+
+---
+
+## 📄 Curriculum Vitae
+📥 **Download CV:** [Allan Otieno – Backend Engineer](./Allan_Otieno_CV.pdf)
+
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=allanotieno&show_icons=true&theme=tokyonight" />
+</p>
+
+---
+
+## 🤝 Let’s Connect
+📧 **Email:** [otienoallan143@gmail.com](mailto:otienoallan143@gmail.com)  
+💼 **LinkedIn:** [Allan Otieno](https://linkedin.com/in/AllanOtieno)  
+
+---
+
+⭐ *Backend engineering is about reliability, scalability, and clean design.*
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)

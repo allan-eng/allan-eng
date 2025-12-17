@@ -40,11 +40,51 @@ I actively create and share tech-related content to help others learn and grow i
 ⭐ *If you like my work, feel free to star my repositories and follow me!*
 📄 **My CV:** [Download PDF](./Allan_Otieno_CV.pdf)
 
-**A passionate Software Engineer || Data Analyst/Scientist || Kafka Admin from Nairobi Kenya**
+---
 
-Email Me 👉 ✉️ **otienoallan143@gmail.com** For Collaboration/Project or Anything Else. 😊😊
+## 🚀 Additional Info.
+💡 Passionate about building scalable software, analyzing data for insights, and designing event-driven systems.  
+🔄 Experienced with **Apache Kafka**, backend systems, and data pipelines.  
+📊 I enjoy turning raw data into meaningful decisions.  
+🎯 Always learning, always building.
 
-## 🔗 I am a Content Creator. 😊😊
+---
+
+## 🛠️ Tech Stack
+### 💻 Programming & Data
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### 🔄 Data & Messaging
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+### 🌐 Backend & Tools
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 📄 My CV
+📥 **Download here:** [Allan Otieno CV](./Allan_Otieno_CV.pdf)
+[![CV](https://img.shields.io/badge/CV-Download-blue)](./Allan_Otieno_CV.pdf)
+
+
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=allanotieno&show_icons=true&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=allanotieno&theme=tokyonight" />
+</p>
+
+---
+
+
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/allan otieno jackson) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/allan_otieno.jackson) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://linked/in/Allan Otieno) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:oallan383@gmail.com) 
 
@@ -85,4 +125,16 @@ Email Me 👉 ✉️ **otienoallan143@gmail.com** For Collaboration/Project or A
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 <img width="2050" height="2247" alt="image" src="https://github.com/user-attachments/assets/8e0406e3-f57b-4167-a073-2508918ac02a" />
+## 🌐 Connect With Me
+📧 **Email:** [otienoallan143@gmail.com](mailto:otienoallan143@gmail.com)  
+💼 **LinkedIn:** [Allan Otieno](https://linkedin.com/in/AllanOtieno)  
+🔵 **Facebook:** [Allan Otieno Jackson](https://facebook.com/allan%20otieno%20jackson)
+
+---
+
+⭐ *If you like my work, consider starring my repositories and following me!*
+
+**A passionate Software Engineer || Data Analyst/Scientist || Kafka Admin from Nairobi Kenya**
+
+Email Me 👉 ✉️ **otienoallan143@gmail.com** For Collaboration/Project or Anything Else. 😊😊
 

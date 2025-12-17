@@ -1,4 +1,45 @@
-# 💫 Hi 👋, I'm Allan Otieno
+# 👋 Hi there, I'm Allan Otieno  
+
+💻 **Software Engineer | 📊 Data Analyst / Scientist | 🔄 Kafka Administrator**  
+📍 Nairobi, Kenya  
+
+---
+
+## 🚀 About Me
+I’m a passionate and results-driven technologist with strong interests in:
+- Backend & Software Development  
+- Data Analysis & Data Science  
+- Event-driven systems using **Apache Kafka**  
+
+I enjoy building scalable solutions, analyzing data for insights, and sharing knowledge with the community.
+
+---
+
+## 🤝 Collaboration & Opportunities
+📩 **Email:** [otienoallan143@gmail.com](mailto:otienoallan143@gmail.com)  
+I’m open to:
+- Collaborations  
+- Freelance & contract work  
+- Open-source projects  
+- Learning & networking  
+
+---
+
+## 🎯 Content Creation
+I actively create and share tech-related content to help others learn and grow in the tech space.
+
+---
+
+## 🌐 Connect With Me
+- 🔵 **Facebook:** [Allan Otieno Jackson](https://facebook.com/allan%20otieno%20jackson)  
+- 📸 **Instagram:** *(add your profile link here)*  
+- 💼 **LinkedIn:** [Allan Otieno](https://linkedin.com/in/AllanOtieno)  
+
+---
+
+⭐ *If you like my work, feel free to star my repositories and follow me!*
+📄 **My CV:** [Download PDF](./Allan_Otieno_CV.pdf)
+
 **A passionate Software Engineer || Data Analyst/Scientist || Kafka Admin from Nairobi Kenya**
 
 Email Me 👉 ✉️ **otienoallan143@gmail.com** For Collaboration/Project or Anything Else. 😊😊

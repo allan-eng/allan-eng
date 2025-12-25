@@ -200,6 +200,7 @@ I focus on **clean architecture, performance, and reliability**.
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
+<img width="5957" height="4166" alt="image" src="https://github.com/user-attachments/assets/10bbd216-69cd-49df-b0f7-8aa0459621d2" />
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=allan-eng&limit=5&theme=dark&combine_all_yearly_contributions=true)

@@ -223,3 +223,808 @@ I focus on **clean architecture, performance, and reliability**.
 
 Email Me 👉 ✉️ **otienoallan143@gmail.com** For Collaboration/Project or Anything Else. 😊😊
 
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allan Otieno Dina – Finance & Technology Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                        newsreader: ['Newsreader', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #000; color: #fff; }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #020202; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+
+        @keyframes clip-reveal-up {
+            0% { clip-path: inset(100% 0 0 0); transform: translateY(40px); }
+            100% { clip-path: inset(0 0 0 0); transform: translateY(0); }
+        }
+        .anim-reveal { animation: clip-reveal-up 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
+        .anim-d1 { animation-delay: 100ms; }
+        .anim-d2 { animation-delay: 200ms; }
+        .anim-d3 { animation-delay: 300ms; }
+        .anim-d4 { animation-delay: 400ms; }
+        .anim-d5 { animation-delay: 500ms; }
+        .anim-d6 { animation-delay: 600ms; }
+        .anim-d7 { animation-delay: 700ms; }
+
+        .reveal-on-scroll {
+            opacity: 0; transform: translateY(30px);
+            transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal-on-scroll.visible { opacity: 1; transform: translateY(0); }
+
+        .glass {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .skill-pill {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .skill-pill:hover {
+            background: rgba(16,185,129,0.1);
+            border-color: rgba(16,185,129,0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 0 20px -5px rgba(16,185,129,0.15);
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 2rem;
+            border-left: 1px solid rgba(255,255,255,0.08);
+            transition: all 0.5s ease;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -5px; top: 8px;
+            width: 9px; height: 9px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.15);
+            border: 2px solid rgba(255,255,255,0.2);
+            transition: all 0.5s ease;
+        }
+        .timeline-item:hover::before {
+            background: #10b981;
+            border-color: #34d399;
+            box-shadow: 0 0 12px rgba(16,185,129,0.5);
+        }
+        .timeline-item:hover {
+            border-left-color: rgba(16,185,129,0.3);
+        }
+
+        .cert-card {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.06);
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .cert-card:hover {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(16,185,129,0.2);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -15px rgba(0,0,0,0.5);
+        }
+
+        .project-card {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.06);
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .project-card:hover {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(16,185,129,0.2);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -15px rgba(0,0,0,0.5);
+        }
+
+        .glow-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+            pointer-events: none;
+        }
+
+        .contact-link {
+            transition: all 0.3s ease;
+            color: rgba(255,255,255,0.6);
+        }
+        .contact-link:hover { color: #34d399; }
+
+        .stat-number {
+            font-family: 'Newsreader', serif;
+            background: linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.6) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-link {
+            color: rgba(255,255,255,0.5);
+            transition: color 0.3s ease;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        .nav-link:hover, .nav-link.active { color: #ffffff; }
+
+        .section-label {
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #10b981;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background: #ffffff;
+            color: #000000;
+            font-weight: 500;
+            font-size: 0.875rem;
+            padding: 0.875rem 2rem;
+            border-radius: 9999px;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-primary:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 35px rgba(255,255,255,0.2);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 0.875rem;
+            padding: 0.875rem 2rem;
+            border-radius: 9999px;
+            border: 1px solid rgba(255,255,255,0.15);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn-outline:hover {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(255,255,255,0.3);
+            transform: scale(1.03);
+        }
+
+        @media print {
+            body { background: #fff !important; color: #000 !important; }
+            .glass, .skill-pill, .cert-card, .project-card, .timeline-item {
+                background: #f8f8f8 !important;
+                border-color: #ddd !important;
+            }
+            .no-print { display: none !important; }
+            .section-label { color: #059669 !important; }
+            .stat-number { -webkit-text-fill-color: #000 !important; }
+            .timeline-item::before { background: #059669 !important; border-color: #059669 !important; }
+            .timeline-item { border-left-color: #059669 !important; }
+        }
+    </style>
+</head>
+<body class="font-inter antialiased">
+
+    <!-- Background Orbs -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none no-print" aria-hidden="true">
+        <div class="glow-orb" style="width:800px;height:500px;top:-200px;right:-200px;background:rgba(16,185,129,0.04);"></div>
+        <div class="glow-orb" style="width:600px;height:400px;bottom:20%;left:-150px;background:rgba(16,185,129,0.03);"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 no-print" style="background:rgba(0,0,0,0.7);backdrop-filter:blur(24px);border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="text-sm font-medium tracking-tight">A.O. Dina</span>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+            </div>
+            <button id="download-btn" class="btn-outline" style="padding:0.5rem 1.25rem;font-size:0.75rem;">
+                <span class="iconify" data-icon="mdi:download" data-width="14"></span>
+                Download PDF
+            </button>
+        </div>
+    </nav>
+
+    <main class="relative z-10">
+
+        <!-- Hero Section -->
+        <section id="about" class="min-h-screen flex items-center pt-16">
+            <div class="max-w-5xl mx-auto px-6 w-full py-20">
+                <div class="grid md:grid-cols-5 gap-12 items-center">
+                    <div class="md:col-span-3">
+                        <div class="anim-reveal anim-d1">
+                            <span class="section-label mb-6 inline-block">Finance & Technology</span>
+                        </div>
+                        <h1 class="anim-reveal anim-d2" style="font-size:clamp(2.5rem,6vw,4.5rem);font-weight:400;line-height:1.05;letter-spacing:-0.03em;">
+                            Allan Otieno<br>
+                            <span class="font-newsreader italic" style="background:linear-gradient(180deg,#ffffff 0%,rgba(255,255,255,0.6) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">Dina</span>
+                        </h1>
+                        <p class="anim-reveal anim-d3 mt-8 text-base md:text-lg leading-relaxed" style="color:rgba(255,255,255,0.6);max-width:520px;">
+                            Finance and technology professional blending accounting expertise with data analytics and software development to drive digital finance transformation and operational efficiency.
+                        </p>
+                        <div class="anim-reveal anim-d4 mt-10 flex flex-wrap gap-4">
+                            <a href="mailto:otienoallan143@gmail.com" class="btn-primary">
+                                <span class="iconify" data-icon="mdi:email-outline" data-width="18"></span>
+                                Get in Touch
+                            </a>
+                            <a href="https://www.linkedin.com/in/allan-otieno-467b67240" target="_blank" class="btn-outline">
+                                <span class="iconify" data-icon="mdi:linkedin" data-width="18"></span>
+                                LinkedIn
+                            </a>
+                        </div>
+                        <div class="anim-reveal anim-d5 mt-10 flex flex-wrap gap-6 text-sm" style="color:rgba(255,255,255,0.5);">
+                            <span class="flex items-center gap-2">
+                                <span class="iconify" data-icon="mdi:map-marker-outline" data-width="16" style="color:#10b981;"></span>
+                                Nairobi, Kenya
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <span class="iconify" data-icon="mdi:phone-outline" data-width="16" style="color:#10b981;"></span>
+                                +254 700 478 557
+                            </span>
+                        </div>
+                    </div>
+                    <div class="md:col-span-2">
+                        <div class="anim-reveal anim-d4 grid grid-cols-2 gap-4">
+                            <div class="glass rounded-2xl p-6 text-center">
+                                <div class="stat-number text-4xl font-light">5+</div>
+                                <div class="text-xs mt-2" style="color:rgba(255,255,255,0.4);letter-spacing:0.05em;text-transform:uppercase;">Years Exp.</div>
+                            </div>
+                            <div class="glass rounded-2xl p-6 text-center">
+                                <div class="stat-number text-4xl font-light">6</div>
+                                <div class="text-xs mt-2" style="color:rgba(255,255,255,0.4);letter-spacing:0.05em;text-transform:uppercase;">Certifications</div>
+                            </div>
+                            <div class="glass rounded-2xl p-6 text-center">
+                                <div class="stat-number text-4xl font-light">35%</div>
+                                <div class="text-xs mt-2" style="color:rgba(255,255,255,0.4);letter-spacing:0.05em;text-transform:uppercase;">Error Reduced</div>
+                            </div>
+                            <div class="glass rounded-2xl p-6 text-center">
+                                <div class="stat-number text-4xl font-light">4</div>
+                                <div class="text-xs mt-2" style="color:rgba(255,255,255,0.4);letter-spacing:0.05em;text-transform:uppercase;">Projects Built</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-24 md:py-32">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="reveal-on-scroll">
+                    <span class="section-label">Core Competencies</span>
+                    <h2 class="mt-4 text-3xl md:text-4xl font-normal" style="letter-spacing:-0.025em;">Skills & Tools</h2>
+                </div>
+
+                <div class="mt-16 grid md:grid-cols-3 gap-8">
+                    <!-- Finance Skills -->
+                    <div class="reveal-on-scroll">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.2);">
+                                <span class="iconify" data-icon="mdi:finance" data-width="20" style="color:#10b981;"></span>
+                            </div>
+                            <h3 class="text-sm font-medium" style="letter-spacing:0.02em;">Finance & Accounting</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Financial Reporting</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Bank Reconciliations</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Accounts Payable</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Accounts Receivable</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Budget Monitoring</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Internal Controls</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Audit Support</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Cost Analysis</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Taxation</span>
+                        </div>
+                    </div>
+
+                    <!-- Data & Analytics -->
+                    <div class="reveal-on-scroll" style="transition-delay:100ms;">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.2);">
+                                <span class="iconify" data-icon="mdi:chart-bar" data-width="20" style="color:#10b981;"></span>
+                            </div>
+                            <h3 class="text-sm font-medium" style="letter-spacing:0.02em;">Data & Analytics</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Python</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">SQL</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Power BI</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Tableau</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Advanced Excel</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Data Modeling</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Dashboarding</span>
+                        </div>
+                    </div>
+
+                    <!-- Tech & Tools -->
+                    <div class="reveal-on-scroll" style="transition-delay:200ms;">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.2);">
+                                <span class="iconify" data-icon="mdi:code-braces" data-width="20" style="color:#10b981;"></span>
+                            </div>
+                            <h3 class="text-sm font-medium" style="letter-spacing:0.02em;">Tech & Tools</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">MERN Stack</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Odoo ERP</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">GitHub</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Jira</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Trello</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">Notion</span>
+                            <span class="skill-pill px-3 py-1.5 rounded-full text-xs" style="color:rgba(255,255,255,0.7);">CRM Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-24 md:py-32" style="background:linear-gradient(180deg,transparent,rgba(16,185,129,0.02) 50%,transparent);">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="reveal-on-scroll">
+                    <span class="section-label">Career Journey</span>
+                    <h2 class="mt-4 text-3xl md:text-4xl font-normal" style="letter-spacing:-0.025em;">Professional Experience</h2>
+                </div>
+
+                <div class="mt-16 space-y-10">
+                    <!-- Role 1 -->
+                    <div class="reveal-on-scroll timeline-item pb-10">
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
+                            <div>
+                                <h3 class="text-lg font-medium">Assistant Account Clerk Intern</h3>
+                                <p class="text-sm" style="color:rgba(255,255,255,0.5);">Kenya Investment Authority (KenInvest)</p>
+                            </div>
+                            <span class="text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap" style="background:rgba(16,185,129,0.1);color:#34d399;border:1px solid rgba(16,185,129,0.15);">Mar 2025 – Dec 2025</span>
+                        </div>
+                        <ul class="space-y-2 text-sm" style="color:rgba(255,255,255,0.6);">
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Prepared and verified financial records and payment vouchers for compliance</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Performed bank reconciliations and supported ledger maintenance</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Monitored expenditure and assisted in preparing internal financial reports</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Maintained financial documentation for audits and regulatory compliance</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 2 -->
+                    <div class="reveal-on-scroll timeline-item pb-10">
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
+                            <div>
+                                <h3 class="text-lg font-medium">Assistant Inventory Officer</h3>
+                                <p class="text-sm" style="color:rgba(255,255,255,0.5);">Hitech Limited</p>
+                            </div>
+                            <span class="text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap" style="background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.08);">May 2024 – Feb 2025</span>
+                        </div>
+                        <ul class="space-y-2 text-sm" style="color:rgba(255,255,255,0.6);">
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Managed inventory tracking using Odoo ERP and advanced Excel tools</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Developed reconciliation reports linking inventory, sales, and procurement data</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span><strong style="color:#34d399;">Reduced stock discrepancies by 35%</strong> through data analysis and process improvement</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Trained staff on inventory systems and reporting accuracy standards</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 3 -->
+                    <div class="reveal-on-scroll timeline-item pb-10">
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
+                            <div>
+                                <h3 class="text-lg font-medium">Business Development Officer Intern</h3>
+                                <p class="text-sm" style="color:rgba(255,255,255,0.5);">Royal Mabati Factory</p>
+                            </div>
+                            <span class="text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap" style="background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.08);">Sep 2023 – May 2024</span>
+                        </div>
+                        <ul class="space-y-2 text-sm" style="color:rgba(255,255,255,0.6);">
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Conducted market research and sales data analysis to identify growth opportunities</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Prepared sales reports and interactive dashboards for executive decision-making</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Assisted with CRM management and client relationship tracking</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 4 -->
+                    <div class="reveal-on-scroll timeline-item pb-10">
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
+                            <div>
+                                <h3 class="text-lg font-medium">Cold Calling Agent</h3>
+                                <p class="text-sm" style="color:rgba(255,255,255,0.5);">ACEteK Software Ltd</p>
+                            </div>
+                            <span class="text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap" style="background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.08);">Nov 2022 – Jul 2023</span>
+                        </div>
+                        <ul class="space-y-2 text-sm" style="color:rgba(255,255,255,0.6);">
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Generated qualified leads for software products through targeted outreach</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Maintained CRM records and tracked sales pipeline performance</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 5 -->
+                    <div class="reveal-on-scroll timeline-item pb-10">
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
+                            <div>
+                                <h3 class="text-lg font-medium">Tour Consultant</h3>
+                                <p class="text-sm" style="color:rgba(255,255,255,0.5);">Milana Tours and Safaris</p>
+                            </div>
+                            <span class="text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap" style="background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.08);">Jan 2022 – Aug 2022</span>
+                        </div>
+                        <ul class="space-y-2 text-sm" style="color:rgba(255,255,255,0.6);">
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Designed personalized travel packages based on customer needs analysis</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Built Excel tools to track bookings and measure performance metrics</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 6 -->
+                    <div class="reveal-on-scroll timeline-item pb-10">
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
+                            <div>
+                                <h3 class="text-lg font-medium">Loan Collection & Recovery Officer</h3>
+                                <p class="text-sm" style="color:rgba(255,255,255,0.5);">AFS Holdings</p>
+                            </div>
+                            <span class="text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap" style="background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.08);">Jan 2021 – Jan 2022</span>
+                        </div>
+                        <ul class="space-y-2 text-sm" style="color:rgba(255,255,255,0.6);">
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Managed loan recovery operations and monitored debtor accounts</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Built debtor tracking and aging analysis reports for recovery strategy</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 7 -->
+                    <div class="reveal-on-scroll timeline-item">
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
+                            <div>
+                                <h3 class="text-lg font-medium">Real Estate Consultant</h3>
+                                <p class="text-sm" style="color:rgba(255,255,255,0.5);">Mursons Estate LLC</p>
+                            </div>
+                            <span class="text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap" style="background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.08);">Jan 2020 – Dec 2020</span>
+                        </div>
+                        <ul class="space-y-2 text-sm" style="color:rgba(255,255,255,0.6);">
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Managed property inquiries and tracked sales leads across channels</li>
+                            <li class="flex gap-2"><span style="color:#10b981;margin-top:2px;">›</span>Analyzed marketing campaign performance to optimize lead generation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="py-24 md:py-32">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-16">
+                    <!-- Education -->
+                    <div>
+                        <div class="reveal-on-scroll">
+                            <span class="section-label">Academic Background</span>
+                            <h2 class="mt-4 text-3xl md:text-4xl font-normal" style="letter-spacing:-0.025em;">Education</h2>
+                        </div>
+
+                        <div class="mt-12 space-y-8">
+                            <div class="reveal-on-scroll">
+                                <div class="glass rounded-2xl p-6">
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.15);">
+                                            <span class="iconify" data-icon="mdi:school-outline" data-width="20" style="color:#10b981;"></span>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-sm font-medium">Bachelor's Degree in Accountancy</h3>
+                                            <p class="text-xs mt-1" style="color:rgba(255,255,255,0.4);">Technical University of Kenya</p>
+                                            <span class="inline-block mt-2 text-xs px-2.5 py-0.5 rounded-full" style="background:rgba(16,185,129,0.1);color:#34d399;border:1px solid rgba(16,185,129,0.15);">In Progress</span>
+                                            <p class="text-xs mt-3" style="color:rgba(255,255,255,0.4);line-height:1.6;">
+                                                Financial Accounting · Corporate Finance · Auditing · Cost Accounting · Taxation · Accounting Information Systems · Business Statistics
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="reveal-on-scroll" style="transition-delay:100ms;">
+                                <div class="glass rounded-2xl p-6">
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+                                            <span class="iconify" data-icon="mdi:certificate-outline" data-width="20" style="color:rgba(255,255,255,0.5);"></span>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-sm font-medium">Diploma in Accountancy</h3>
+                                            <p class="text-xs mt-1" style="color:rgba(255,255,255,0.4);">Technical University of Kenya</p>
+                                            <span class="inline-block mt-2 text-xs px-2.5 py-0.5 rounded-full" style="background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08);">Credit, Lower Division</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="reveal-on-scroll" style="transition-delay:200ms;">
+                                <div class="glass rounded-2xl p-6">
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+                                            <span class="iconify" data-icon="mdi:badge-account-horizontal-outline" data-width="20" style="color:rgba(255,255,255,0.5);"></span>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-sm font-medium">CPA – Certified Public Accountant</h3>
+                                            <p class="text-xs mt-1" style="color:rgba(255,255,255,0.4);">NIBS College</p>
+                                            <span class="inline-block mt-2 text-xs px-2.5 py-0.5 rounded-full" style="background:rgba(16,185,129,0.1);color:#34d399;border:1px solid rgba(16,185,129,0.15);">In Progress</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div>
+                        <div class="reveal-on-scroll">
+                            <span class="section-label">Professional Credentials</span>
+                            <h2 class="mt-4 text-3xl md:text-4xl font-normal" style="letter-spacing:-0.025em;">Certifications</h2>
+                        </div>
+
+                        <div class="mt-12 space-y-4">
+                            <div class="reveal-on-scroll cert-card rounded-2xl p-5">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0" style="background:rgba(16,185,129,0.08);">
+                                        <span class="iconify" data-icon="mdi:microsoft" data-width="16" style="color:#10b981;"></span>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-sm font-medium">Microsoft Certified: Power BI Data Analyst Associate</h3>
+                                        <p class="text-xs mt-0.5" style="color:rgba(255,255,255,0.4);">Microsoft</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="reveal-on-scroll cert-card rounded-2xl p-5" style="transition-delay:50ms;">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0" style="background:rgba(255,255,255,0.04);">
+                                        <span class="iconify" data-icon="mdi:google" data-width="16" style="color:rgba(255,255,255,0.5);"></span>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-sm font-medium">Google Data Analytics Professional Certificate</h3>
+                                        <p class="text-xs mt-0.5" style="color:rgba(255,255,255,0.4);">Coursera</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="reveal-on-scroll cert-card rounded-2xl p-5" style="transition-delay:100ms;">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0" style="background:rgba(255,255,255,0.04);">
+                                        <span class="iconify" data-icon="mdi:ibm" data-width="16" style="color:rgba(255,255,255,0.5);"></span>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-sm font-medium">IBM Data Science Certificate</h3>
+                                        <p class="text-xs mt-0.5" style="color:rgba(255,255,255,0.4);">IBM Skills Academy</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="reveal-on-scroll cert-card rounded-2xl p-5" style="transition-delay:150ms;">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0" style="background:rgba(255,255,255,0.04);">
+                                        <span class="iconify" data-icon="mdi:code-tags" data-width="16" style="color:rgba(255,255,255,0.5);"></span>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-sm font-medium">Full-Stack Development (MERN Stack)</h3>
+                                        <p class="text-xs mt-0.5" style="color:rgba(255,255,255,0.4);">Power Learn Project</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="reveal-on-scroll cert-card rounded-2xl p-5" style="transition-delay:200ms;">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0" style="background:rgba(255,255,255,0.04);">
+                                        <span class="iconify" data-icon="mdi:robot-outline" data-width="16" style="color:rgba(255,255,255,0.5);"></span>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-sm font-medium">AI in Software Engineering</h3>
+                                        <p class="text-xs mt-0.5" style="color:rgba(255,255,255,0.4);">Power Learn Project</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="reveal-on-scroll cert-card rounded-2xl p-5" style="transition-delay:250ms;">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0" style="background:rgba(255,255,255,0.04);">
+                                        <span class="iconify" data-icon="mdi:table-large" data-width="16" style="color:rgba(255,255,255,0.5);"></span>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-sm font-medium">Accounting Software & Advanced Excel</h3>
+                                        <p class="text-xs mt-0.5" style="color:rgba(255,255,255,0.4);">Corporate Staffing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-24 md:py-32" style="background:linear-gradient(180deg,transparent,rgba(16,185,129,0.02) 50%,transparent);">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="reveal-on-scroll">
+                    <span class="section-label">Portfolio</span>
+                    <h2 class="mt-4 text-3xl md:text-4xl font-normal" style="letter-spacing:-0.025em;">Technical Projects</h2>
+                </div>
+
+                <div class="mt-16 grid md:grid-cols-2 gap-6">
+                    <div class="reveal-on-scroll project-card rounded-2xl p-8">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-5" style="background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.15);">
+                            <span class="iconify" data-icon="mdi:chart-areaspline" data-width="24" style="color:#10b981;"></span>
+                        </div>
+                        <h3 class="text-base font-medium">Financial KPI Dashboard</h3>
+                        <p class="text-sm mt-3 leading-relaxed" style="color:rgba(255,255,255,0.5);">
+                            Built interactive Power BI dashboards to track and visualize key financial performance indicators, enabling real-time monitoring of organizational health.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-5">
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">Power BI</span>
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">DAX</span>
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">Data Modeling</span>
+                        </div>
+                    </div>
+
+                    <div class="reveal-on-scroll project-card rounded-2xl p-8" style="transition-delay:100ms;">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-5" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+                            <span class="iconify" data-icon="mdi:package-variant-closed" data-width="24" style="color:rgba(255,255,255,0.5);"></span>
+                        </div>
+                        <h3 class="text-base font-medium">Inventory & Sales Monitoring System</h3>
+                        <p class="text-sm mt-3 leading-relaxed" style="color:rgba(255,255,255,0.5);">
+                            Developed ERP-integrated tools with Excel to align stock levels, procurement cycles, and sales data—reducing discrepancies by 35%.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-5">
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">Odoo ERP</span>
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">Excel</span>
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="reveal-on-scroll project-card rounded-2xl p-8" style="transition-delay:200ms;">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-5" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+                            <span class="iconify" data-icon="mdi:bank-transfer-out" data-width="24" style="color:rgba(255,255,255,0.5);"></span>
+                        </div>
+                        <h3 class="text-base font-medium">Loan Recovery Analytics Model</h3>
+                        <p class="text-sm mt-3 leading-relaxed" style="color:rgba(255,255,255,0.5);">
+                            Created data-driven debtor prioritization models using financial data to optimize recovery strategy and resource allocation.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-5">
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">Python</span>
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">Excel</span>
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">Analytics</span>
+                        </div>
+                    </div>
+
+                    <div class="reveal-on-scroll project-card rounded-2xl p-8" style="transition-delay:300ms;">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-5" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+                            <span class="iconify" data-icon="mdi:web" data-width="24" style="color:rgba(255,255,255,0.5);"></span>
+                        </div>
+                        <h3 class="text-base font-medium">Full-Stack Web Applications</h3>
+                        <p class="text-sm mt-3 leading-relaxed" style="color:rgba(255,255,255,0.5);">
+                            Developed end-to-end MERN stack applications with database integration, RESTful APIs, and responsive front-end interfaces.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-5">
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">React</span>
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">Node.js</span>
+                            <span class="text-xs px-2.5 py-1 rounded-full" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.5);">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Contact -->
+        <section class="py-24 md:py-32">
+            <div class="max-w-5xl mx-auto px-6 text-center">
+                <div class="reveal-on-scroll">
+                    <span class="section-label">Let's Connect</span>
+                    <h2 class="mt-4 text-3xl md:text-5xl font-normal font-newsreader italic" style="letter-spacing:-0.025em;">
+                        Ready to build something
+                        <span style="background:linear-gradient(180deg,#ffffff 0%,rgba(255,255,255,0.6) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">remarkable?</span>
+                    </h2>
+                    <p class="mt-6 text-base mx-auto" style="color:rgba(255,255,255,0.5);max-width:480px;">
+                        I'm always open to discussing finance transformation, data analytics projects, or full-stack development opportunities.
+                    </p>
+                    <div class="mt-10 flex flex-wrap justify-center gap-4">
+                        <a href="mailto:otienoallan143@gmail.com" class="btn-primary">
+                            <span class="iconify" data-icon="mdi:email-outline" data-width="18"></span>
+                            otienoallan143@gmail.com
+                        </a>
+                        <a href="https://github.com/allan-eng" target="_blank" class="btn-outline">
+                            <span class="iconify" data-icon="mdi:github" data-width="18"></span>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="reveal-on-scroll mt-16 pt-12" style="border-top:1px solid rgba(255,255,255,0.06);">
+                    <div class="flex flex-wrap justify-center gap-8 text-sm" style="color:rgba(255,255,255,0.4);">
+                        <span class="flex items-center gap-2">
+                            <span class="iconify" data-icon="mdi:translate" data-width="16" style="color:#10b981;"></span>
+                            English (Fluent) · Kiswahili (Fluent)
+                        </span>
+                        <span class="flex items-center gap-2">
+                            <span class="iconify" data-icon="mdi:flag-outline" data-width="16" style="color:#10b981;"></span>
+                            Kenyan
+                        </span>
+                        <span class="flex items-center gap-2">
+                            <span class="iconify" data-icon="mdi:car-outline" data-width="16" style="color:#10b981;"></span>
+                            Driving License: Class BC
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // Scroll reveal observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Download PDF button
+        document.getElementById('download-btn').addEventListener('click', () => {
+            window.print();
+        });
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+
